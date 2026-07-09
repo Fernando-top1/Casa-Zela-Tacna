@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Casa Zela de Tacna | Proyecto de Modelado Virtual</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <nav class="navbar" id="top">
+    <div class="nav-container">
+      <a href="#inicio" class="nav-brand">Casa Zela 3D</a>
+      <ul class="nav-links">
+        <li><a href="#modelo">Modelo</a></li>
+        <li><a href="#render">Render</a></li>
+        <li><a href="#recorridos">Recorridos</a></li>
+        <li><a href="#ra">Realidad Aumentada</a></li>
+        <li><a href="#informe">Informe</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero" id="inicio">
+    <div class="hero-content">
+      <span class="hero-tag">Diseño y Modelamiento Virtual</span>
+      <h1 class="hero-title">Casa Zela de Tacna</h1>
+      <p class="hero-subtitle">Proyecto completo de modelado 3D arquitectónico</p>
+      <p class="hero-desc">Presentación del modelo en SketchUp, renderizado fotorrealista con V-Ray, recorridos virtuales exterior e interior, demostración de realidad aumentada, e informe detallado del proceso de construcción.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="../01_Modelo_SketchUp/Casa_Basadre_MEJORADO.skp">Descargar modelo SKP</a>
+        <a class="btn btn-outline" href="../05_Informe_Guia/Informe_Realizacion_Modelo_Guia_Paso_a_Paso.pdf">Ver informe PDF</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="assets/images/renderizado_vray_luces_preview.jpg" alt="Renderizado V-Ray de la Casa Zela" loading="eager">
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="modelo">
+      <div class="section-header">
+        <span class="section-number">01</span>
+        <span class="section-tag">Entregable 1</span>
+        <h2 class="section-title">Modelo en SketchUp</h2>
+        <p class="section-desc">Modelo tridimensional completo de la Casa Zela, incluyendo fachada, distribución interior, patio central, muros, texturas, mobiliario y detalles arquitectónicos.</p>
+      </div>
+      <div class="info-cards">
+        <div class="info-card">
+          <div class="info-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <h3 class="info-card-title">Archivo SKP</h3>
+          <p class="info-card-text">El archivo principal editable en SketchUp con el modelo completo de la vivienda.</p>
+          <a class="link" href="../01_Modelo_SketchUp/Casa_Basadre_MEJORADO.skp">Abrir modelo .SKP</a>
+        </div>
+        <div class="info-card">
+          <div class="info-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          </div>
+          <h3 class="info-card-title">Vistas del modelo</h3>
+          <p class="info-card-text">Galeria de vistas que muestran la organizacion de ambientes, corredores, patio central y cubierta.</p>
+        </div>
+      </div>
+      <div class="gallery-grid">
+        <img src="assets/images/image10.png" alt="Vista exterior e interior del modelo" loading="lazy">
+        <img src="assets/images/image11.png" alt="Vista superior del proyecto" loading="lazy">
+        <img src="assets/images/image12.png" alt="Vista interior en perspectiva" loading="lazy">
+        <img src="assets/images/image14.png" alt="Vista superior final del modelo" loading="lazy">
+      </div>
+    </section>
+
+    <section class="section section-alt" id="render">
+      <div class="section-header">
+        <span class="section-number">02</span>
+        <span class="section-tag">Entregable 2</span>
+        <h2 class="section-title">Renderizado V-Ray con Luces</h2>
+        <p class="section-desc">Render fotorrealista que muestra iluminacion natural, sombras proyectadas, cielo, materiales y profundidad visual del proyecto.</p>
+      </div>
+      <div class="video-wrapper">
+        <video class="video-player" src="assets/videos/renderizado_vray_luces_720p.mp4" controls poster="assets/images/renderizado_vray_luces_preview.jpg" preload="metadata"></video>
+      </div>
+      <div class="actions-center">
+        <a class="btn btn-primary" href="../02_Renderizado_VRay_Luces/Renderizado_VRay_Luces_Completo.mp4">Descargar video completo</a>
+        <a class="btn btn-outline" href="../02_Renderizado_VRay_Luces/Renderizado_VRay_Luces_Preview.jpg">Descargar imagen preview</a>
+      </div>
+    </section>
+
+    <section class="section" id="recorridos">
+      <div class="section-header">
+        <span class="section-number">03 — 04</span>
+        <span class="section-tag">Entregables 3 y 4</span>
+        <h2 class="section-title">Recorridos Virtuales con V-Ray</h2>
+        <p class="section-desc">Videos renderizados que recorren tanto el exterior como el interior del modelo, destacando la iluminacion, texturas y espacios arquitectonicos.</p>
+      </div>
+      <div class="video-cards">
+        <div class="video-card">
+          <h3 class="video-card-title">Recorrido Exterior</h3>
+          <p class="video-card-desc">Fachada, acceso, cubierta y vista general del volumen arquitectonico.</p>
+          <div class="video-wrapper">
+            <video class="video-player" src="assets/videos/recorrido_exterior.mp4" controls poster="assets/images/frame_120.jpg" preload="metadata"></video>
+          </div>
+          <a class="link" href="../03_Recorridos_Virtuales/Recorrido_Virtual_Exterior_VRay.mp4">Descargar video exterior</a>
+        </div>
+        <div class="video-card">
+          <h3 class="video-card-title">Recorrido Interior</h3>
+          <p class="video-card-desc">Patio central, pasadizos, ambientes internos y efecto de luces y sombras.</p>
+          <div class="video-wrapper">
+            <video class="video-player" src="assets/videos/recorrido_interior.mp4" controls poster="assets/images/frame_95.jpg" preload="metadata"></video>
+          </div>
+          <a class="link" href="../03_Recorridos_Virtuales/Recorrido_Virtual_Interior_VRay.mp4">Descargar video interior</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="ra">
+      <div class="section-header">
+        <span class="section-number">05</span>
+        <span class="section-tag">Entregable 5</span>
+        <h2 class="section-title">Realidad Aumentada</h2>
+        <p class="section-desc">Experiencia de realidad aumentada que permite visualizar el modelo 3D de la Casa Zela directamente desde un dispositivo movil usando un marcador.</p>
+      </div>
+      <div class="ra-cards">
+        <div class="ra-card">
+          <h3 class="ra-card-title">Video Demostrativo</h3>
+          <p class="ra-card-desc">Simulacion visual del modelo 3D apareciendo sobre un marcador AR.</p>
+          <div class="video-wrapper">
+            <video class="video-player" src="assets/videos/demo_realidad_aumentada.mp4" controls poster="assets/images/marcador_ar.png" preload="metadata"></video>
+          </div>
+          <a class="link" href="../04_Realidad_Aumentada/Video_Demostrativo_Realidad_Aumentada.mp4">Descargar video RA</a>
+        </div>
+        <div class="ra-card ra-card-highlight">
+          <h3 class="ra-card-title">Visor AR Interactivo</h3>
+          <p class="ra-card-desc">Escanea el c&oacute;digo QR desde tu celular o abre el visor para ver el modelo 3D en tu entorno real con realidad aumentada.</p>
+          <div class="ra-highlight-grid">
+            <div class="ra-qr-block">
+              <img src="assets/images/qr_ar_demo.png" alt="QR para abrir visor AR">
+              <span class="ra-label">Escanea con tu celular</span>
+            </div>
+            <div class="ra-marker-block">
+              <img src="assets/images/marcador_ar.png" alt="Marcador AR Casa Zela">
+              <span class="ra-label">Marcador AR</span>
+            </div>
+          </div>
+          <a class="btn btn-primary btn-lg" href="ar_demo.html">Abrir visor AR</a>
+          <div class="ra-links">
+            <a class="link" href="../04_Realidad_Aumentada/modelo_RA_referencial_Casa_Zela.glb">Descargar modelo GLB</a>
+            <a class="link" href="../04_Realidad_Aumentada/Marcador_AR_Casa_Zela.png">Descargar marcador</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="informe">
+      <div class="section-header">
+        <span class="section-number">06 — 07</span>
+        <span class="section-tag">Entregables 6 y 7</span>
+        <h2 class="section-title">Informe y Documentacion</h2>
+        <p class="section-desc">Documentacion completa del proceso de modelado, incluyendo guia paso a paso, informe academico y video tutorial explicativo.</p>
+      </div>
+      <div class="info-cards three">
+        <div class="info-card">
+          <div class="info-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          </div>
+          <h3 class="info-card-title">Guia Paso a Paso</h3>
+          <p class="info-card-text">Documento con metodologia, desarrollo, configuracion de luces, camaras, recorrido virtual, RA y publicacion web.</p>
+          <a class="link" href="../05_Informe_Guia/Informe_Realizacion_Modelo_Guia_Paso_a_Paso.docx">Descargar DOCX</a>
+        </div>
+        <div class="info-card">
+          <div class="info-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          </div>
+          <h3 class="info-card-title">Informe PDF</h3>
+          <p class="info-card-text">Version del informe lista para entregar o imprimir, con todo el contenido academico del proyecto.</p>
+          <a class="link" href="../05_Informe_Guia/Informe_Realizacion_Modelo_Guia_Paso_a_Paso.pdf">Descargar PDF</a>
+        </div>
+        <div class="info-card">
+          <div class="info-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3 class="info-card-title">Video Guia de Modelado</h3>
+          <p class="info-card-text">Tutorial audiovisual que explica paso a paso el proceso de construccion del modelo en SketchUp.</p>
+          <div class="video-wrapper">
+            <video class="video-player" src="assets/videos/video_guia_modelado.mp4" controls poster="assets/images/image10.png" preload="metadata"></video>
+          </div>
+          <a class="link" href="../05_Informe_Guia/Video_Guia_Paso_a_Paso_Modelado.mp4">Descargar video guia</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <strong>Casa Zela de Tacna</strong>
+        <span>Proyecto Academico de Modelado Virtual</span>
+      </div>
+      <div class="footer-info">
+        <p>Diseño y Modelamiento Virtual — Unidad 3</p>
+        <p>Entregables: Modelo SketchUp &middot; Render V-Ray &middot; Recorridos Virtuales &middot; Realidad Aumentada &middot; Informe &middot; Pagina Web</p>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 — Todos los derechos reservados</p>
+        <a href="#top" class="footer-top">Volver al inicio &uarr;</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

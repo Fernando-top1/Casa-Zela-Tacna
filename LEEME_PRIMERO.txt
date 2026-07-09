@@ -1,0 +1,38 @@
+PROYECTO CASA ZELA DE TACNA - ENTREGABLES COMPLETOS
+
+Abrir primero:
+06_Pagina_Web/index.html
+
+Contenido del paquete:
+1. 01_Modelo_SketchUp
+   - Casa_Basadre_MEJORADO.skp
+
+2. 02_Renderizado_VRay_Luces
+   - Renderizado_VRay_Luces_Completo.mp4
+   - Renderizado_VRay_Luces_Preview.jpg
+
+3. 03_Recorridos_Virtuales
+   - Recorrido_Virtual_Exterior_VRay.mp4
+   - Recorrido_Virtual_Interior_VRay.mp4
+
+4. 04_Realidad_Aumentada
+   - Video_Demostrativo_Realidad_Aumentada.mp4
+   - Marcador_AR_Casa_Zela.png
+   - modelo_RA_referencial_Casa_Zela.glb
+
+5. 05_Informe_Guia
+   - Informe_Realizacion_Modelo_Guia_Paso_a_Paso.docx
+   - Informe_Realizacion_Modelo_Guia_Paso_a_Paso.pdf
+   - Video_Guia_Paso_a_Paso_Modelado.mp4
+   - Informe_Base_Proceso_Modelado_Casa_Zela_Tacna.docx
+
+6. 06_Pagina_Web
+   - index.html
+   - ar_demo.html
+   - assets con imagenes, videos y modelo GLB.
+
+Notas de uso:
+- El archivo SKP es el modelo principal para abrir en SketchUp.
+- El renderizado completo conserva el video base del proyecto y se incluye una version web comprimida.
+- Los recorridos exterior e interior fueron organizados como videos separados para que coincidan con los entregables solicitados.
+- La realidad aumentada incluye un video demostrativo, marcador y un modelo GLB referencial. Para una RA exacta del modelo original, exportar el SKP a GLB o USDZ desde SketchUp/Blender y reemplazar el archivo GLB de la carpeta 04_Realidad_Aumentada.
